@@ -1,96 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
 
-    <meta charset="utf-8">
-    <title>Lowids</title>
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Modu System Indonesia" />
+    <meta property="og:url" content="http://dev.thememountain.com/faulkner/project-style-one.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://dev.thememountain.com/faulkner/images/portfolio/projects/project-1-1.jpg" />
+    <meta property="og:description" content="Your Page Description Here" />
 
-    <link rel="shortcut icon" href="{{ URL::asset('frontend_images/favicon.ico') }}" type="image/x-icon">
-    <link rel="icon" href="{{ URL::asset('frontend_images/favicon.ico') }}" type="image/x-icon">
+    <!-- Twitter Theme -->
+    <meta name="twitter:widgets:theme" content="light">
 
-    <!-- CSS -->
-    <link href="{{ URL::asset('css/frontend/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ URL::asset('css/frontend/bootstrap-datepicker/bootstrap-datepicker.min.css') }}" rel="stylesheet">
+    <!-- Title &amp; Favicon -->
+    <title>Modu System Indonesia</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="{{ URL::asset('images/favicon.ico') }}" type="image/x-icon">
 
-    <link href="{{ URL::asset('css/frontend/flexslider.css') }}" rel="stylesheet">
-    <link href="{{ URL::asset('css/frontend/fancySelect.css') }}" rel="stylesheet" media="screen, projection" >
-    <link href="{{ URL::asset('css/frontend/animate.css') }}" rel="stylesheet" media="all">
-    <link href="{{ URL::asset('css/frontend/style.css') }}" rel="stylesheet">
-    <!-- Datatables -->
-    <link href="{{ URL::asset('css/frontend/datatable/dataTables.bootstrap.min.css') }}" rel="stylesheet">
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
 
-    <!-- Lowids Custom CSS -->
-    <link href="{{ URL::asset('css/frontend/frontend-custom-lowids-bayu.css') }}" rel="stylesheet">
+    <!-- Css -->
+    <link href="{{ URL::asset('css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/core.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/skin.css') }}" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="{{ URL::asset('css/custom.css') }}" rel="stylesheet">
 
-    <!-- FONTS -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
 </head>
 
-<body>
+<body class="shop home-page">
 
-<!-- PRELOADER -->
-<div id="preloader"><img src="{{ URL::asset('frontend_images/preloader.gif') }}" alt="" /></div>
-<!-- //PRELOADER -->
-<div class="preloader_hide">
+    <!-- HEADER -->
+    @include('frontend.partials._sidebar')
+    <!-- //HEADER -->
 
-    <!-- PAGE -->
-    <div id="page">
+    <div class="wrapper">
+        <div class="wrapper-inner">
+            <!-- HEADER -->
+            @include('frontend.partials._header')
+            <!-- //HEADER -->
 
-        <!-- HEADER -->
-        @include('frontend.partials._header')
-        <!-- //HEADER -->
+            @yield('body-content')
 
-        @yield('body-content')
-
-        <!-- FOOTER -->
-        @include('frontend.partials._footer')
-        <!-- //FOOTER -->
+            <!-- FOOTER -->
+            @include('frontend.partials._footer')
+            <!-- //FOOTER -->
+        </div>
     </div>
-    <!-- //PAGE -->
-</div>
-
-<!-- TOVAR MODAL CONTENT -->
-<div id="modal-body" class="clearfix">
-    <div id="tovar_content"></div>
-    <div class="close_block"></div>
-</div><!-- TOVAR MODAL CONTENT -->
-
-<!-- SCRIPTS -->
-<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-<!--[if IE]><html class="ie" lang="en"> <![endif]-->
-
-<script src="{{ URL::asset('js/frontend/jquery.min.js') }}"></script>
-<script src="{{ URL::asset('js/frontend/bootstrap.min.js') }}"></script>
-<script src="{{ URL::asset('js/frontend/bootstrap-datepicker/bootstrap-datepicker.min.js') }}"></script>
-
-<!-- autoNumeric -->
-<script src="{{ URL::asset('js/autoNumeric/autoNumeric.min.js') }}"></script>
-
-<!-- Datatables -->
-<script src="{{ URL::asset('js/frontend/datatable/jquery.dataTables.min.js') }}"></script>
-<script src="{{ URL::asset('js/frontend/datatable/dataTables.bootstrap.min.js') }}"></script>
-
-<script src="{{ URL::asset('js/frontend/jquery.sticky.js') }}"></script>
-<script src="{{ URL::asset('js/frontend/parallax.js') }}"></script>
-<script src="{{ URL::asset('js/frontend/jquery.flexslider-min.js') }}"></script>
-<script src="{{ URL::asset('js/frontend/jquery.jcarousel.js') }}"></script>
-<script src="{{ URL::asset('js/frontend/fancySelect.js') }}"></script>
-<script src="{{ URL::asset('js/frontend/animate.js') }}"></script>
-<script src="{{ URL::asset('js/frontend/myscript.js') }}"></script>
 
 
-<script src="{{ URL::asset('js/frontend/custom.js') }}"></script>
-<script src="{{ URL::asset('js/frontend/frontend-custom-lowids-bayu.js') }}"></script>
-<script>
-    if (top != self) top.location.replace(self.location.href);
-</script>
+    <script src="{{ URL::asset('js/jquery-3.2.1.min.js') }}"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3JCAhNj6tVAO_LSb8M-AzMlidiT-RPAs"></script>
+    <script src="{{ URL::asset('js/timber.master.min.js') }}"></script>
+
+    <script src="{{ URL::asset('js/custom.js') }}"></script>
 
 </body>
 </html>
