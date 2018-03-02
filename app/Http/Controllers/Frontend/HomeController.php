@@ -20,6 +20,14 @@ class HomeController extends Controller
         return View('frontend.about-us');
     }
 
+    public function AboutUsFacts(Request $request){
+        return View('frontend.about-us-facts');
+    }
+
+    public function AboutUsLocation(Request $request){
+        return View('frontend.about-us-location');
+    }
+
     public function terms(){
         return View('frontend.terms');
     }

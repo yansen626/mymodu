@@ -25,8 +25,10 @@ Route::get('/', 'Frontend\HomeController@home')->name('landing');
 Route::get('/contact-us', 'Frontend\HomeController@contactUs')->name('contact-us');
 Route::post('/contact-us', 'Frontend\HomeController@submitContactUs')->name('contact-us-post');
 
-// contact us
+// about us
 Route::get('/about-us', 'Frontend\HomeController@AboutUs')->name('about-us');
+Route::get('/about-us-facts', 'Frontend\HomeController@AboutUsFacts')->name('about-us-facts');
+Route::get('/about-us-location', 'Frontend\HomeController@AboutUsLocation')->name('about-us-location');
 
 // End Frontend Routing
 Route::get('/home', 'HomeController@index')->name('home');

@@ -19,13 +19,10 @@
                                 <a href="{{ route('about-us') }}">About Us</a>
                             </li>
                             <li>
-                                <a href="homepage-mobile-application.html">Facts</a>
+                                <a href="{{ route('about-us-facts') }}">Facts</a>
                             </li>
                             <li>
-                                <a href="homepage-mobile-application-2.html">Quality Policy</a>
-                            </li>
-                            <li>
-                                <a href="homepage-platform.html">MODU in the world</a>
+                                <a href="{{ route('about-us-location') }}">MODU in the world</a>
                             </li>
                         </ul>
                     </li>
