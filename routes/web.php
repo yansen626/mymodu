@@ -22,7 +22,8 @@ Route::post('/signin', 'Auth\LoginController@authenticate')->name('signin');
 Route::get('/', 'Frontend\HomeController@home')->name('landing');
 
 // contact us
-Route::get('/contact-us', 'Frontend\HomeController@ContactUs')->name('contact-us');
+Route::get('/contact-us', 'Frontend\HomeController@contactUs')->name('contact-us');
+Route::post('/contact-us', 'Frontend\HomeController@submitContactUs')->name('contact-us-post');
 
 // contact us
 Route::get('/about-us', 'Frontend\HomeController@AboutUs')->name('about-us');

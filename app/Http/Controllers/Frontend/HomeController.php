@@ -3,13 +3,11 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
-use App\Models\Banner;
-use App\Models\Category;
-use App\Models\Product;
-use App\Models\Cart;
+use App\Mail\ContactUs;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
-use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -18,15 +16,28 @@ class HomeController extends Controller
         return View('frontend.home');
     }
 
-    public function ContactUs(Request $request){
-        return View('frontend.contact-us');
-    }
-
     public function AboutUs(Request $request){
         return View('frontend.about-us');
     }
 
     public function terms(){
         return View('frontend.terms');
+    }
+
+    public function contactUs(){
+        return View('frontend.contact-us');
+    }
+
+    public function submitContactUs(Request $request){
+        $name = Input::get('name');
+        $email = Input::get('email');
+        $description = Input::get('description');
+
+        $data = new ContactUs($name, $email, $description);
+
+        Mail::to('ferdyantorand@gmail.com')->send($data);
+
+        Session::flash('message', 'Terima Kasih. Kami akan segera menghubungi Anda!');
+        return View('frontend.contact-us');
     }
 }
