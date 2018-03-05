@@ -6,8 +6,8 @@
             <div class="column width-12 nav-bar-inner">
                 <div class="logo">
                     <div class="logo-inner">
-                        <a href="index.html"><img src="images/logo-dark.png" alt="Faulkner Logo" /></a>
-                        <a href="index.html"><img src="images/logo.png" alt="Faulkner Logo" /></a>
+                        <a href="{{route ('landing')}}"><img src="{{ URL::asset('images/MODULogo.png') }}" alt="Modu System Logo" /></a>
+                        <a href="{{route ('landing')}}"><img src="{{ URL::asset('images/MODULogo.png') }}" alt="Modu System Logo" /></a>
                     </div>
                 </div>
                 <nav class="navigation nav-block secondary-navigation nav-right">
@@ -37,7 +37,7 @@
                             </ul>
                         </li>
                         <li class="contains-sub-menu">
-                            <a href="blog-wide.html">Our Product</a>
+                            <a href="#">Our Product</a>
                             <ul class="sub-menu">
                                 <li>
                                     <a href="homepage-consulting.html">Aluminium Conveyors</a>
@@ -55,45 +55,58 @@
                                     <a href="homepage-platform-2.html">Accumulation Conveyor</a>
                                 </li>
                                 {{--<li>--}}
-                                    {{--<a href="homepage-product.html">Kaiten/Sushi Conveyor</a>--}}
+                                {{--<a href="homepage-product.html">Kaiten/Sushi Conveyor</a>--}}
                                 {{--</li>--}}
                             </ul>
                         </li>
-                        <li class="contains-sub-menu">
-                            <a href="blog-wide.html">Industrial Solutions</a>
-                            <ul class="sub-menu">
+
+                        <li class="contains-mega-sub-menu">
+                            <a href="#">Industrial Solutions</a>
+                            <ul class="mega-sub-menu">
                                 <li>
-                                    <a href="blog-wide.html">Food & Packaging</a>
+                                    <ul>
+                                        <li>
+                                            <a href="{{ route('industrial-food') }}">Food & Packaging</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ route('industrial-teabag') }}">Tea Bag Handling</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ route('industrial-carton') }}">Carton Handling</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ route('industrial-pharmacy') }}">Personal & Pharmaceutical</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li>
-                                    <a href="blog-grid.html">Tea Bag Handling</a>
+                                    <ul>
+                                        <li>
+                                            <a href="{{ route('industrial-paper') }}">Paper Converting</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ route('industrial-electric') }}">Electronic & Electrical</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ route('industrial-optical') }}">Optional Handling</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ route('industrial-can') }}">Composite Can Manufacturing</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li>
-                                    <a href="blog-masonry.html">Carton Handling</a>
-                                </li>
-                                <li>
-                                    <a href="blog-list.html">Personal & Pharmaceutical</a>
-                                </li>
-                                <li>
-                                    <a href="blog-sidebar-right.html">Paper Converting</a>
-                                </li>
-                                <li>
-                                    <a href="blog-sidebar-left.html">Electronic & Electrical</a>
-                                </li>
-                                <li>
-                                    <a href="blog-single-post.html">Optional Handling</a>
-                                </li>
-                                <li>
-                                    <a href="blog-single-post-sidebar-right.html">Composite Can Manufacturing</a>
-                                </li>
-                                <li>
-                                    <a href="blog-single-post-sidebar-left.html">Automotive & Machine Parts</a>
-                                </li>
-                                <li>
-                                    <a href="blog-single-post-sidebar-left.html">Puck Handling</a>
-                                </li>
-                                <li>
-                                    <a href="blog-single-post-sidebar-left.html">Tobacco Handling</a>
+                                    <ul>
+                                        <li>
+                                            <a href="{{ route('industrial-automotive') }}">Automotive & Machine Parts</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ route('industrial-puck') }}">Puck Handling</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ route('industrial-tobacco') }}">Tobacco Handling</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>
@@ -101,7 +114,7 @@
                             <a href="{{ route('contact-us') }}">Contact Us</a>
                         </li>
                         <li>
-                            <a href="blog-wide.html">Videos</a>
+                            <a href="{{ route('videos') }}">Videos</a>
                         </li>
                     </ul>
                 </nav>

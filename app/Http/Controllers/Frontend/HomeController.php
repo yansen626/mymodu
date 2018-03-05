@@ -16,6 +16,10 @@ class HomeController extends Controller
         return View('frontend.home');
     }
 
+    public function Video(){
+        return View('frontend.videos');
+    }
+
     public function AboutUs(Request $request){
         return View('frontend.about-us');
     }
@@ -47,5 +51,109 @@ class HomeController extends Controller
 
         Session::flash('message', 'Terima Kasih. Kami akan segera menghubungi Anda!');
         return View('frontend.contact-us');
+    }
+
+    public function article($page)
+    {
+        if($page == 'belt'){
+            return View('frontend.article-belt');
+        }
+
+        if($page == '63'){
+            $title = 'MS2 (63mm)';
+            $image = '63';
+            $pdfName = 'MS2';
+        }
+        else if($page == '83'){
+            $title = 'MM3 (83mm)';
+            $image = '83';
+            $pdfName = 'MM3';
+        }
+        else if($page == '140'){
+            $title = 'ML2 (140mm)';
+            $image = '140';
+            $pdfName = 'ML2';
+        }
+        else if($page == '220'){
+            $title = 'MX2 (220mm)';
+            $image = '220';
+            $pdfName = 'MX2';
+        }
+
+        return View('frontend.article-reuse', compact('title', 'image', 'pdfName'));
+    }
+
+    public function product($product)
+    {
+        if($product == 'aluminium')
+        {
+            return View('frontend.product-aluminium');
+        }
+        else if($product == 'stainless')
+        {
+            return View('frontend.product-stainless');
+        }
+        else if($product == 'gripper')
+        {
+            return View('frontend.product-gripper');
+        }
+        else if($product == 'alpine')
+        {
+            return View('frontend.product-alpine');
+        }
+        else if($product == 'accumulation')
+        {
+            return View('frontend.product-accumulation');
+        }
+    }
+
+    public function industrialFood(){
+        return View('frontend.industrial-food');
+    }
+
+    public function industrialTeaBag(){
+        return View('frontend.industrial-teabag');
+    }
+
+    public function industrialCarton(){
+        return View('frontend.industrial-carton');
+    }
+
+    public function industrialPharmacy(){
+        return View('frontend.industrial-pharmacy');
+    }
+
+    public function industrialPaper(){
+        return View('frontend.industrial-paper');
+    }
+
+    public function industrialElectric(){
+        return View('frontend.industrial-electric');
+    }
+
+    public function industrialOptical(){
+        return View('frontend.industrial-optical');
+    }
+
+    public function industrialCan(){
+        return View('frontend.industrial-can');
+    }
+
+    public function industrialAutomotive(){
+        return View('frontend.industrial-automotive');
+    }
+
+    public function industrialPuck(){
+        return View('frontend.industrial-puck');
+    }
+
+    public function industrialTobacco(){
+        return View('frontend.industrial-tobacco');
+    }
+
+    public function DownloadFile($filename)
+    {
+        $file_path = public_path('files/'.$filename);
+        return response()->download($file_path);
     }
 }
