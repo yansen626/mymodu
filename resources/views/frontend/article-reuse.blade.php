@@ -7,7 +7,7 @@
                 <div>
                     <h3>{{$title}} Plastic Chain Conveyor </h3>
                     <div class="column width-7">
-                        <p>MODU MX2 conveyor system is suitable for a wide range of applications.</p>
+                        <p>MODU {{ $pdfName }} conveyor system is suitable for a wide range of applications.</p>
                         <h4>Examples of application industries</h4>
                         <p>Personal Products, Pharmaceutical & Chemical Industry, Automotive & Machined Parts Industry, Food & Packaging Industry, Electrical & Electronic Industry, Paper Converting Industry, and Optical Industry.</p>
                         <h4>Examples of application industries</h4>

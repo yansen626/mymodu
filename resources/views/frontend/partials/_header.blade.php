@@ -1,7 +1,7 @@
 
 <!-- Header -->
 <header class="header header-relative header-fixed-on-mobile nav-dark" data-bkg-threshold="100" data-sticky-threshold="0">
-    <div class="header-inner">
+    <div class="header-inner" style="background-color: #0066b2!important;">
         <div class="row nav-bar">
             <div class="column width-12 nav-bar-inner">
                 <div class="logo">
@@ -40,23 +40,23 @@
                             <a href="#">Our Product</a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="homepage-consulting.html">Aluminium Conveyors</a>
+                                    <a href="{{route ('products', ['products'=>'aluminium'])}}">Aluminium Conveyors</a>
                                 </li>
                                 <li>
-                                    <a href="homepage-mobile-application.html">Stainless Steel Conveyors</a>
+                                    <a href="{{route ('products', ['products'=>'stainless'])}}">Stainless Steel Conveyors</a>
                                 </li>
                                 <li>
-                                    <a href="homepage-mobile-application-2.html">Gripper Conveyor</a>
+                                    <a href="{{route ('products', ['products'=>'gripper'])}}">Gripper Conveyor</a>
                                 </li>
                                 <li>
-                                    <a href="homepage-platform.html">Alpine Conveyor</a>
+                                    <a href="{{route ('products', ['products'=>'alpine'])}}">Alpine Conveyor</a>
                                 </li>
                                 <li>
-                                    <a href="homepage-platform-2.html">Accumulation Conveyor</a>
+                                    <a href="{{route ('products', ['products'=>'accumulation'])}}">Accumulation Conveyor</a>
                                 </li>
-                                {{--<li>--}}
-                                {{--<a href="homepage-product.html">Kaiten/Sushi Conveyor</a>--}}
-                                {{--</li>--}}
+                                <li>
+                                    <a href="http://mymodu.com/2017/" target="_blank">Kaiten/Sushi Conveyor</a>
+                                </li>
                             </ul>
                         </li>
 

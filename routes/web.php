@@ -30,6 +30,10 @@ Route::get('/about-us', 'Frontend\HomeController@AboutUs')->name('about-us');
 Route::get('/about-us-facts', 'Frontend\HomeController@AboutUsFacts')->name('about-us-facts');
 Route::get('/about-us-location', 'Frontend\HomeController@AboutUsLocation')->name('about-us-location');
 
+//product
+Route::get('/products/{product}', 'Frontend\HomeController@product')->name('products');
+
+
 // industrial solution menu
 Route::get('/industrial-food', 'Frontend\HomeController@industrialFood')->name('industrial-food');
 Route::get('/industrial-teabag', 'Frontend\HomeController@industrialTeaBag')->name('industrial-teabag');

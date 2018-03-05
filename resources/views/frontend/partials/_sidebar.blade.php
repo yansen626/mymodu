@@ -30,23 +30,23 @@
                         <a href="#" class="contains-sub-menu">Our Product</a>
                         <ul class="sub-menu">
                             <li>
-                                <a href="homepage-consulting.html">Aluminium Conveyors</a>
+                                <a href="{{route ('products', ['products'=>'aluminium'])}}">Aluminium Conveyors</a>
                             </li>
                             <li>
-                                <a href="homepage-mobile-application.html">Stainless Steel Conveyors</a>
+                                <a href="{{route ('products', ['products'=>'stainless'])}}">Stainless Steel Conveyors</a>
                             </li>
                             <li>
-                                <a href="homepage-mobile-application-2.html">Gripper Conveyor</a>
+                                <a href="{{route ('products', ['products'=>'gripper'])}}">Gripper Conveyor</a>
                             </li>
                             <li>
-                                <a href="homepage-platform.html">Alpine Conveyor</a>
+                                <a href="{{route ('products', ['products'=>'alpine'])}}">Alpine Conveyor</a>
                             </li>
                             <li>
-                                <a href="homepage-platform.html">Accumulation Conveyor</a>
+                                <a href="{{route ('products', ['products'=>'accumulation'])}}">Accumulation Conveyor</a>
                             </li>
-                            {{--<li>--}}
-                            {{--<a href="homepage-platform.html">Kaiten/Sushi Conveyor</a>--}}
-                            {{--</li>--}}
+                            <li>
+                                <a href="http://mymodu.com/2017/" target="_blank">Kaiten/Sushi Conveyor</a>
+                            </li>
                         </ul>
                     </li>
                     <li>

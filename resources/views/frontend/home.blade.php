@@ -39,6 +39,11 @@
 						<h5 class="mb-10 color-white opacity-07">Flexible Design - Simple Assembly</h5>
 						<h3 class="color-white">Aluminum Conveyor - A simple concept of Modular & Flexible </h3>
 						<p class="color-white">MODU conveyors are modular and flexible, which makes them very cost effective. The straights, supports, and bends are made up of various re-assembled components. Therefore a conveyor can be installed or reconfigured (realigned, extended or shortened) within a very short time-frame easily by using simple tools.</p>
+						<span class="fa fa-file-text-o"></span><a href="{{route ('article', ['page'=>'M63'])}}" class="bkg-hover-white" style="color: black;">MODU MS2 (63mm) Plastic Chain Conveyor</a><br>
+						<span class="fa fa-file-text-o"></span><a href="{{route ('article', ['page'=>'M83'])}}" class="bkg-hover-white" style="color: black;">MODU MS2 (83mm) Plastic Chain Conveyor</a><br>
+						<span class="fa fa-file-text-o"></span><a href="{{route ('article', ['page'=>'M140'])}}" class="bkg-hover-white" style="color: black;">MODU MS2 (140mm) Plastic Chain Conveyor</a><br>
+						<span class="fa fa-file-text-o"></span><a href="{{route ('article', ['page'=>'M220'])}}" class="bkg-hover-white" style="color: black;">MODU MS2 (220mm) Plastic Chain Conveyor</a><br>
+						<span class="fa fa-file-text-o"></span><a href="{{route ('article', ['page'=>'belt'])}}" class="bkg-hover-white" style="color: black;">MODU Plastic Belt Conveyor</a>
 					</div>
 				</div>
 				<div class="column width-6 pull-5 v-align-middle center">
@@ -97,7 +102,7 @@
 					<div class="row">
 						<div class=" product headphones col-md-3">
 							<div class="thumbnail rounded product-thumbnail border-grey-light img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
-								<a class="overlay-link" href="single-product-device.html">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/Conveyors.jpg') }}" alt=""/>
 									<span class="overlay-info">
 										<span>
@@ -118,7 +123,7 @@
 						</div>
 						<div class=" product speakers col-md-3">
 							<div class="thumbnail rounded product-thumbnail border-grey-light img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
-								<a class="overlay-link" href="single-product-device.html">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/Industry.jpg') }}" alt=""/>
 									<span class="overlay-info">
 										<span>
@@ -139,7 +144,7 @@
 						</div>
 						<div class=" product keyboards col-md-3">
 							<div class="thumbnail rounded product-thumbnail border-grey-light img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
-								<a class="overlay-link" href="single-product-device.html">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/Handling.jpg') }}" alt=""/>
 									<span class="overlay-info">
 										<span>
@@ -160,7 +165,7 @@
 						</div>
 						<div class=" product phones col-md-3">
 							<div class="thumbnail rounded product-thumbnail border-grey-light img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9">
-								<a class="overlay-link" href="single-product-device.html">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/Palletizing.jpg') }}" alt=""/>
 									<span class="overlay-info">
 										<span>
