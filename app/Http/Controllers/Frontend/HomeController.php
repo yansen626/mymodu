@@ -110,13 +110,15 @@ class HomeController extends Controller
 
     public function product($product)
     {
-            if($product == 'aluminium')
+        if($product == 'aluminium')
         {
-            return View('frontend.product-aluminium');
+            $footer = 'aluminium';
+            return View('frontend.product-aluminium', compact('footer'));
         }
         else if($product == 'stainless')
         {
-            return View('frontend.product-stainless');
+            $footer = 'stainless';
+            return View('frontend.product-stainless', compact('footer'));
         }
         else if($product == 'gripper')
         {
