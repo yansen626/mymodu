@@ -5,11 +5,18 @@
         <div class="row flex">
             <div class="column width-9 offset-1 mb-mobile-40 v-align-middle">
                 <div>
-                    <h2>Aluminum Conveyors</h2>
-                    <p>MODU System has gained extensive experience in research, development, manufacturing and installation of plastic chain modular conveyor systems. All MODU System conveyor systems are thoroughly tested to ensure extended service life and low maintenance.</p>
-                    <p>MODU System provides seven diverse plastic chain conveyor systems out of which four systems are aluminium based. All conveyor systems can be effortlessly assembled with standard tools.</p>
-                    <p>Single components are prepared with anodized aluminum and plastic, giving a spotless and artistic outlook. A ready stock availability of conveyer components is ensured at MODU System at all times. The bends, straights and supports are made up of pre-assembled pieces due to which MODU Conveyors can be reconfigured or assembled in quite a less time using simple hand held tools.</p>
+                    <h2>Stainless Steel Conveyors</h2>
+                    <p><img src="{{ URL::asset('images/product/suscv.jpg') }}" alt="" style="float: right;" width="500" height="375"/></p>
+                    <p>
+                        MODU System’s stainless steel conveyor system comprises of two distinct DS2 and DL2 streamlines assembly and installation time, which allows rapid and relaxed line modifications. MODU stainless steel conveyors can function easily at high speeds without lubrication.
+                    </p>
+                    <p>Our Conveyor’s modular design comprehends trouble-free line configurations, site installation and maintenance making them cost effective and simple to use.</p>
+                    <p>MODU conveyors can be reconfigured or assembled in quite a less time using simple hand held tools.</p>
+                    <h4>Efficient Design</h4>
+                    <p>MODU stainless steel conveyors are designed to ensure their suitability for hygiene industry. The advanced drainage, open design and abolished pockets in conveyor design ensure a more hygienic conveyor.</p>
 
+                    <h4>Download Leaflet</h4>
+                    <a href="/download/Stainless Steel Conveyor.pdf" class="button medium rounded bkg-theme bkg-hover-theme color-white color-hover-white">Stainless Steel Conveyors</a>
                 </div>
             </div>
         </div>
