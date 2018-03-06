@@ -59,51 +59,53 @@ class HomeController extends Controller
             return View('frontend.article-belt');
         }
         if(strpos( $page, 'M' ) !== false ){
-            if($page == '63'){
+            $footer = "aluminium";
+            if($page == 'M63'){
                 $title = 'MS2 (63mm)';
                 $image = '63M';
                 $pdfName = 'MS2';
             }
-            else if($page == '83'){
+            else if($page == 'M83'){
                 $title = 'MM3 (83mm)';
                 $image = '83M';
                 $pdfName = 'MM3';
             }
-            else if($page == '140'){
+            else if($page == 'M140'){
                 $title = 'ML2 (140mm)';
                 $image = '140M';
                 $pdfName = 'ML2';
             }
-            else if($page == '220'){
+            else if($page == 'M220'){
                 $title = 'MX2 (220mm)';
                 $image = '220M';
                 $pdfName = 'MX2';
             }
         }
         else{
-            if($page == '63'){
+            $footer = "stainless";
+            if($page == 'D63'){
                 $title = 'DS2 (63mm)';
                 $image = '63D';
                 $pdfName = 'DS2';
             }
-            else if($page == '83'){
+            else if($page == 'D83'){
                 $title = 'DM3 (83mm)';
                 $image = '83D';
                 $pdfName = 'DM3';
             }
-            else if($page == '140'){
+            else if($page == 'D140'){
                 $title = 'DL2 (140mm)';
                 $image = '140D';
                 $pdfName = 'DL2';
             }
-            else if($page == '220'){
+            else if($page == 'D220'){
                 $title = 'DX2 (220mm)';
                 $image = '220D';
                 $pdfName = 'DX2';
             }
         }
 
-        return View('frontend.article-reuse', compact('title', 'image', 'pdfName'));
+        return View('frontend.article-reuse', compact('title', 'image', 'pdfName', 'footer'));
     }
 
     public function product($product)

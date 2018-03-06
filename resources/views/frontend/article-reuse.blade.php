@@ -45,4 +45,5 @@
             </div>
         </div>
     </div>
+    @include('frontend.partials._article-footer', compact('footer'))
 @endsection
