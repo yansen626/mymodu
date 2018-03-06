@@ -190,11 +190,12 @@
     <!-- Download Section -->
     <div class="section-block pb-0 bkg-white">
         <div class="row flex">
-            <div class="column width-9 offset-1 mb-mobile-40 v-align-middle">
+            <div class="column width-12 mb-mobile-40 v-align-middle">
                 <div>
                     <h3>Download Leaflet</h3>
-                    <i class="far fa-arrow-alt-circle-down"></i>
-                    <a href="{{route('download', ['filename' => 'Tea Bag Handling.pdf'])}}"><span>Tea Bag Handling</span></a>
+                    <a href="{{route('download', ['filename' => 'Tea Bag Handling.pdf'])}}" class="button medium rounded bkg-theme bkg-hover-theme color-white color-hover-white">
+                        <span class="icon-download"></span> Tea Bag Handling
+                    </a>
                 </div>
             </div>
         </div>

@@ -22,6 +22,9 @@
                 </nav>
                 <nav class="navigation nav-block primary-navigation nav-right sub-menu-indicator">
                     <ul>
+                        <li>
+                            <a href="{{ route('landing') }}">Home</a>
+                        </li>
                         <li class="contains-sub-menu">
                             <a href="#">About MODU</a>
                             <ul class="sub-menu">

@@ -3,7 +3,7 @@
 @section('body-content')
     <div class="section-block pb-0 bkg-white">
         <div class="row flex">
-            <div class="column width-9 offset-1 mb-mobile-40 v-align-middle">
+            <div class="column width-12 mb-mobile-40 v-align-middle">
                 <div>
                     <h3>Automotive & Machined Part </h3>
                     <p>The automotive & machined part industry has long product cycles. They require very dependable robust conveyor systems which requires little maintenance.</p>
@@ -56,7 +56,7 @@
                                             <span class="overlay-info center">
 												<span>
 													<span>
-														<i class="fas fa-search fa-3x"></i>
+                                                        <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
 													</span>
 												</span>
 											</span>
@@ -70,7 +70,7 @@
                                             <span class="overlay-info center">
 												<span>
 													<span>
-														<i class="fas fa-search fa-3x"></i>
+                                                        <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
 													</span>
 												</span>
 											</span>

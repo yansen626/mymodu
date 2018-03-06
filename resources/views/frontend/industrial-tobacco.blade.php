@@ -3,7 +3,7 @@
 @section('body-content')
     <div class="section-block pb-0 bkg-white">
         <div class="row flex">
-            <div class="column width-9 offset-1 mb-mobile-40 v-align-middle">
+            <div class="column width-12 mb-mobile-40 v-align-middle">
                 <div>
                     <h3>Tobacco Handling Industry</h3>
                     <p>MODU M Series conveyors are well suited to handle tobacco packaging. At MODU, we focus on the best methods to efficiently transport tobacco packaging to different processes.</p>

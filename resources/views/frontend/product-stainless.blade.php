@@ -16,7 +16,9 @@
                     <p>MODU stainless steel conveyors are designed to ensure their suitability for hygiene industry. The advanced drainage, open design and abolished pockets in conveyor design ensure a more hygienic conveyor.</p>
 
                     <h4>Download Leaflet</h4>
-                    <a href="/download/Stainless Steel Conveyor.pdf" class="button medium rounded bkg-theme bkg-hover-theme color-white color-hover-white">Stainless Steel Conveyors</a>
+                    <a href="{{route('download', ['filename' => 'Stainless Steel Conveyor.pdf'])}}" class="button medium rounded bkg-theme bkg-hover-theme color-white color-hover-white">
+                        <span class="icon-download"></span> Stainless Steel Conveyors
+                    </a>
                 </div>
             </div>
         </div>

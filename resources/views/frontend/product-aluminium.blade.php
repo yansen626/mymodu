@@ -6,6 +6,7 @@
             <div class="column width-12 mb-mobile-40 v-align-middle">
                 <div>
                     <h2>Aluminum Conveyors</h2>
+                    <p><img src="{{ URL::asset('images/product/Optical cv.jpg') }}" alt="" style="float: right;" width="500" height="375"/></p>
                     <p>MODU System has gained extensive experience in research, development, manufacturing and installation of plastic chain modular conveyor systems. All MODU System conveyor systems are thoroughly tested to ensure extended service life and low maintenance.</p>
                     <p>MODU System provides seven diverse plastic chain conveyor systems out of which four systems are aluminium based. All conveyor systems can be effortlessly assembled with standard tools.</p>
                     <p>Single components are prepared with anodized aluminum and plastic, giving a spotless and artistic outlook. A ready stock availability of conveyer components is ensured at MODU System at all times. The bends, straights and supports are made up of pre-assembled pieces due to which MODU Conveyors can be reconfigured or assembled in quite a less time using simple hand held tools.</p>

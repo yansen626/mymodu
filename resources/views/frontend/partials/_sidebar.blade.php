@@ -13,6 +13,9 @@
             <nav class="side-navigation nav-block">
                 <ul>
                     <li>
+                        <a href="{{ route('landing') }}">Home</a>
+                    </li>
+                    <li>
                         <a href="#" class="contains-sub-menu">About MODU</a>
                         <ul class="sub-menu">
                             <li>

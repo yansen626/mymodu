@@ -3,7 +3,7 @@
 @section('body-content')
     <div class="section-block pb-0 bkg-white">
         <div class="row flex">
-            <div class="column width-9 offset-1 mb-mobile-40 v-align-middle">
+            <div class="column width-12 mb-mobile-40 v-align-middle">
                 <div>
                     <h3>Paper Converting Industry</h3>
                     <div class="column width-3">
@@ -82,7 +82,7 @@
                                             <span class="overlay-info center">
 												<span>
 													<span>
-														<i class="fas fa-search fa-3x"></i>
+                                                        <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
 													</span>
 												</span>
 											</span>
@@ -96,7 +96,7 @@
                                             <span class="overlay-info center">
 												<span>
 													<span>
-														<i class="fas fa-search fa-3x"></i>
+                                                        <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
 													</span>
 												</span>
 											</span>
@@ -110,7 +110,7 @@
                                             <span class="overlay-info center">
 												<span>
 													<span>
-														<i class="fas fa-search fa-3x"></i>
+                                                        <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
 													</span>
 												</span>
 											</span>
@@ -124,7 +124,7 @@
                                             <span class="overlay-info center">
 												<span>
 													<span>
-														<i class="fas fa-search fa-3x"></i>
+                                                        <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
 													</span>
 												</span>
 											</span>
@@ -138,7 +138,7 @@
                                             <span class="overlay-info center">
 												<span>
 													<span>
-														<i class="fas fa-search fa-3x"></i>
+                                                        <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
 													</span>
 												</span>
 											</span>
@@ -152,7 +152,7 @@
                                             <span class="overlay-info center">
 												<span>
 													<span>
-														<i class="fas fa-search fa-3x"></i>
+                                                        <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
 													</span>
 												</span>
 											</span>
@@ -176,8 +176,9 @@
             <div class="column width-9 offset-1 mb-mobile-40 v-align-middle">
                 <div>
                     <h3>Download Leaflet</h3>
-                    <i class="far fa-arrow-alt-circle-down"></i>
-                    <a href="{{route('download', ['filename' => 'Paper Converting.pdf'])}}"><span>Paper Converting</span></a>
+                    <a href="{{route('download', ['filename' => 'Paper Converting.pdf'])}}" class="button medium rounded bkg-theme bkg-hover-theme color-white color-hover-white">
+                        <span class="icon-download"></span> Paper Converting
+                    </a>
                 </div>
             </div>
         </div>

@@ -122,7 +122,7 @@
                     </div>
 
                     <h4>Download Leaflet</h4>
-                    <a href="/download/Gripper System.pdf" class="button medium rounded bkg-theme bkg-hover-theme color-white color-hover-white">
+                    <a href="{{route('download', ['filename' => 'Griper System.pdf'])}}" class="button medium rounded bkg-theme bkg-hover-theme color-white color-hover-white">
                         <span class="icon-download"></span> Gripper Conveyors
                     </a>
                 </div>

@@ -3,7 +3,7 @@
 @section('body-content')
     <div class="section-block pb-0 bkg-white">
         <div class="row flex">
-            <div class="column width-9 offset-1 mb-mobile-40 v-align-middle">
+            <div class="column width-12 mb-mobile-40 v-align-middle">
                 <div>
                     <h3>Carton Handling</h3>
                     <p>MODU conveyors are suitable for handling carton packaging. At MODU, we focus on the best available techniques to competently transfer cartons to various processes.</p>

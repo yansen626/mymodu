@@ -20,7 +20,7 @@
                                                 <span class="overlay-info center">
                                                     <span>
                                                         <span>
-                                                            <span class="icon-magnifying-glass"></span>
+                                                        <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
                                                         </span>
                                                     </span>
                                                 </span>
@@ -34,7 +34,7 @@
                                                 <span class="overlay-info center">
                                                     <span>
                                                         <span>
-                                                            <span class="icon-magnifying-glass"></span>
+                                                        <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
                                                         </span>
                                                     </span>
                                                 </span>
@@ -48,7 +48,7 @@
                                                 <span class="overlay-info center">
                                                     <span>
                                                         <span>
-                                                            <span class="icon-magnifying-glass"></span>
+                                                            <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
                                                         </span>
                                                     </span>
                                                 </span>
@@ -62,7 +62,7 @@
                                                 <span class="overlay-info center">
                                                     <span>
                                                         <span>
-                                                            <span class="icon-magnifying-glass"></span>
+                                                            <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
                                                         </span>
                                                     </span>
                                                 </span>

@@ -21,23 +21,38 @@
                         <p>Individual components are available to create special functions, modify existing ones, or to serve as spare parts.</p>
                         <h4>Technical Documents</h4>
                         <div>
-                            <i class="far fa-arrow-alt-circle-down"></i>
+                            <span class="icon-download"></span>
                             <a href="{{route('download', ['filename' => ''.$pdfName.' V17.0.pdf'])}}"><span>MODU {{ $title }} Plastic Chain Conveyor</span></a>
                         </div>
+                        @if($footer == "aluminium")
+                            <div>
+                                <span class="icon-download"></span>
+                                <a href="{{route('download', ['filename' => 'MG V17.0.pdf'])}}"><span>MODU MG Conveyor Guides</span></a>
+                            </div>
+                            <div>
+                                <span class="icon-download"></span>
+                                <a href="{{route('download', ['filename' => 'MB V17.0.pdf'])}}"><span>MODU MB Structural System</span></a>
+                            </div>
+                            <div>
+                                <span class="icon-download"></span>
+                                <a href="{{route('download', ['filename' => 'MA V17.0.pdf'])}}"><span>MODU MA Conveyor Accessories</span></a>
+                            </div>
+                        @else
+                            <div>
+                                <span class="icon-download"></span>
+                                <a href="{{route('download', ['filename' => 'DG V17.0.pdf'])}}"><span>MODU DG Conveyor Guides</span></a>
+                            </div>
+                            <div>
+                                <span class="icon-download"></span>
+                                <a href="{{route('download', ['filename' => 'DB V17.0.pdf'])}}"><span>MODU DB Structural System</span></a>
+                            </div>
+                            <div>
+                                <span class="icon-download"></span>
+                                <a href="{{route('download', ['filename' => 'DA V17.0.pdf'])}}"><span>MODU DA Conveyor Accessories</span></a>
+                            </div>
+                        @endif
                         <div>
-                            <i class="far fa-arrow-alt-circle-down"></i>
-                            <a href="{{route('download', ['filename' => 'MG V17.0.pdf'])}}"><span>MODU MG Conveyor Guides</span></a>
-                        </div>
-                        <div>
-                            <i class="far fa-arrow-alt-circle-down"></i>
-                            <a href="{{route('download', ['filename' => 'MB V17.0.pdf'])}}"><span>MODU MB Structural System</span></a>
-                        </div>
-                        <div>
-                            <i class="far fa-arrow-alt-circle-down"></i>
-                            <a href="{{route('download', ['filename' => 'MA V17.0.pdf'])}}"><span>MODU MA Conveyor Accessories</span></a>
-                        </div>
-                        <div>
-                            <i class="far fa-arrow-alt-circle-down"></i>
+                            <span class="icon-download"></span>
                             <a href="{{route('download', ['filename' => 'TR V17.0.pdf'])}}"><span>MODU TR Technical Reference</span></a>
                         </div>
                     </div>

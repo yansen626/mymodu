@@ -3,7 +3,7 @@
 @section('body-content')
     <div class="section-block pb-0 bkg-white">
         <div class="row flex">
-            <div class="column width-9 offset-1 mb-mobile-40 v-align-middle">
+            <div class="column width-12 mb-mobile-40 v-align-middle">
                 <div>
                     <h3>Puck Handling</h3>
                     <p>MODU conveyors are appropriate for all kinds of puck designs. At MODU, we rely on the best techniques to proficiently carry pucks to distinct production lines.</p>
@@ -30,7 +30,7 @@
                                             <span class="overlay-info center">
 												<span>
 													<span>
-														<i class="fas fa-search fa-3x"></i>
+                                                        <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
 													</span>
 												</span>
 											</span>
@@ -44,7 +44,7 @@
                                             <span class="overlay-info center">
 												<span>
 													<span>
-														<i class="fas fa-search fa-3x"></i>
+                                                        <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
 													</span>
 												</span>
 											</span>
@@ -58,7 +58,7 @@
                                             <span class="overlay-info center">
 												<span>
 													<span>
-														<i class="fas fa-search fa-3x"></i>
+                                                        <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
 													</span>
 												</span>
 											</span>
@@ -72,7 +72,7 @@
                                             <span class="overlay-info center">
 												<span>
 													<span>
-														<i class="fas fa-search fa-3x"></i>
+                                                        <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
 													</span>
 												</span>
 											</span>
@@ -86,7 +86,7 @@
                                             <span class="overlay-info center">
 												<span>
 													<span>
-														<i class="fas fa-search fa-3x"></i>
+                                                        <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
 													</span>
 												</span>
 											</span>
@@ -100,7 +100,7 @@
                                             <span class="overlay-info center">
 												<span>
 													<span>
-														<i class="fas fa-search fa-3x"></i>
+                                                        <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
 													</span>
 												</span>
 											</span>
@@ -114,7 +114,7 @@
                                             <span class="overlay-info center">
 												<span>
 													<span>
-														<i class="fas fa-search fa-3x"></i>
+                                                        <span class="icon-magnifying-glass" style="font-size: 3em;"></span>
 													</span>
 												</span>
 											</span>
