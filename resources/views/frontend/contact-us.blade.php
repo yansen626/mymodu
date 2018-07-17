@@ -5,7 +5,7 @@
 	<!-- Hero 5 Section -->
 	<div class="section-block hero-5 right show-media-column-on-mobile bkg-gradient-purple-haze" style="padding-top: 6rem !important;">
 		<div class="media-column width-6">
-			<div class="map-container" data-coordinates="[[-6.333718, 106.676967]]" data-icon='"{{ URL::asset('images/map-marker.png') }}"' data-info='"Taman Tekno BSD, <br>Sektor XI Blok-L-1, No. 11, Serpong<br>Tangerang, Indonesia"' data-zoom-level="18">
+			<div class="map-container" data-coordinates="[[-6.337987, 106.681957]]" data-icon='"{{ URL::asset('images/map-marker.png') }}"' data-info='"Taman Tekno BSD, <br>Sektor XI Blok-L-1, No. 11, Serpong<br>Tangerang, Indonesia"' data-zoom-level="18">
 				<div id="map-canvas"></div>
 			</div>
 		</div>
@@ -17,7 +17,7 @@
 						<p class="color-white">Taman Tekno BSD, Sektor XI Blok-L-1, No. 11, Serpong<br> Tangerang,<br> 15314, Indonesia.</p>
 						<br>
 						<h3 class="mb-30 color-white">Contact</h3>
-						<p class="color-white">Telephone: +62-21 75880544, 547<br>Fax: +62-21-75880543<br>E-Mail: asdfasdf@fasd.com<br>Website: http://www.afsdfasdf.com</p>
+						<p class="color-white">Telephone: +62-21 75880544, 547<br>Fax: +62-21-75880543<br>E-Mail: asdfasdf@fasd.com<br>Website: http://www.modu-system.co.id</p>
 					</div>
 				</div>
 			</div>

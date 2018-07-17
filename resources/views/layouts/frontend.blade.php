@@ -6,10 +6,10 @@
 
     <!-- Open Graph -->
     <meta property="og:title" content="Modu System Indonesia" />
-    <meta property="og:url" content="http://dev.thememountain.com/faulkner/project-style-one.html" />
+    <meta property="og:url" content="" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="http://dev.thememountain.com/faulkner/images/portfolio/projects/project-1-1.jpg" />
-    <meta property="og:description" content="Your Page Description Here" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="Modu System Indonesia" />
 
     <!-- Twitter Theme -->
     <meta name="twitter:widgets:theme" content="light">
