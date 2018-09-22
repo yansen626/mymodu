@@ -40,9 +40,9 @@
 						<h3 class="color-white">Aluminum Conveyor - A simple concept of Modular & Flexible </h3>
 						<p class="color-white">MODU conveyors are modular and flexible, which makes them very cost effective. The straights, supports, and bends are made up of various re-assembled components. Therefore a conveyor can be installed or reconfigured (realigned, extended or shortened) within a very short time-frame easily by using simple tools.</p>
 						<span class="fa fa-file-text-o"></span><a href="{{route ('article', ['page'=>'M63'])}}" class="bkg-hover-white" style="color: black;">MODU MS2 (63mm) Plastic Chain Conveyor</a><br>
-						<span class="fa fa-file-text-o"></span><a href="{{route ('article', ['page'=>'M83'])}}" class="bkg-hover-white" style="color: black;">MODU MS2 (83mm) Plastic Chain Conveyor</a><br>
-						<span class="fa fa-file-text-o"></span><a href="{{route ('article', ['page'=>'M140'])}}" class="bkg-hover-white" style="color: black;">MODU MS2 (140mm) Plastic Chain Conveyor</a><br>
-						<span class="fa fa-file-text-o"></span><a href="{{route ('article', ['page'=>'M220'])}}" class="bkg-hover-white" style="color: black;">MODU MS2 (220mm) Plastic Chain Conveyor</a><br>
+						<span class="fa fa-file-text-o"></span><a href="{{route ('article', ['page'=>'M83'])}}" class="bkg-hover-white" style="color: black;">MODU MM3 (83mm) Plastic Chain Conveyor</a><br>
+						<span class="fa fa-file-text-o"></span><a href="{{route ('article', ['page'=>'M140'])}}" class="bkg-hover-white" style="color: black;">MODU ML2 (140mm) Plastic Chain Conveyor</a><br>
+						<span class="fa fa-file-text-o"></span><a href="{{route ('article', ['page'=>'M220'])}}" class="bkg-hover-white" style="color: black;">MODU MX2 (220mm) Plastic Chain Conveyor</a><br>
 						<span class="fa fa-file-text-o"></span><a href="{{route ('article', ['page'=>'belt'])}}" class="bkg-hover-white" style="color: black;">MODU Plastic Belt Conveyor</a>
 					</div>
 				</div>
@@ -73,6 +73,91 @@
 		</div>
 		<!-- Mobile Section End -->
 
+		<!-- Logo Section 1 -->
+		<div class="section-block logos-1 pt-50 pb-80 bkg-grey-ultralight color-grey">
+			<div class="row">
+				<div class="column width-10 offset-1 center">
+					<h4 class="mb-50">Full integration with popular company such as:</h4>
+					<div class="row content-grid-5">
+						<div class="grid-item">
+							<a href="#">
+								<img src="{{ URL::asset('images/customer/indofood-logo.png') }}" alt=""/>
+							</a>
+						</div>
+						<div class="grid-item">
+							<a href="#">
+								<img src="{{ URL::asset('images/customer/mayora-logo.png') }}" alt=""/>
+							</a>
+						</div>
+						<div class="grid-item">
+							<a href="#">
+								<img src="{{ URL::asset('images/customer/sinarmas-logo.png') }}" alt=""/>
+							</a>
+						</div>
+						<div class="grid-item">
+							<a href="#">
+								<img src="{{ URL::asset('images/customer/unilever-logo.png') }}" alt=""/>
+							</a>
+						</div>
+						<div class="grid-item">
+							<a href="#">
+								<img src="{{ URL::asset('images/customer/nestle-logo.png') }}" alt=""/>
+							</a>
+						</div>
+					</div>
+					<div class="row content-grid-5">
+						<div class="grid-item">
+							<a href="#">
+								<img src="{{ URL::asset('images/customer/yasulor-logo.png') }}" alt=""/>
+							</a>
+						</div>
+						<div class="grid-item">
+							<a href="#">
+								<img src="{{ URL::asset('images/customer/torabika-logo.png') }}" alt=""/>
+							</a>
+						</div>
+						<div class="grid-item">
+							<a href="#">
+								<img src="{{ URL::asset('images/customer/arnotts-logo.png') }}" alt=""/>
+							</a>
+						</div>
+						<div class="grid-item">
+							<a href="#">
+								<img src="{{ URL::asset('images/customer/indolakto-logo.png') }}" alt=""/>
+							</a>
+						</div>
+						<div class="grid-item">
+							<a href="#">
+								<img src="{{ URL::asset('images/customer/otsuka-logo.png') }}" alt=""/>
+							</a>
+						</div>
+					</div>
+					<div class="row content-grid-5">
+						<div class="grid-item">
+							<a href="#">
+								<img src="{{ URL::asset('images/customer/PTKao-logo.png') }}" alt=""/>
+							</a>
+						</div>
+						<div class="grid-item">
+							<a href="#">
+								<img src="{{ URL::asset('images/customer/wilmar-logo.png') }}" alt=""/>
+							</a>
+						</div>
+						<div class="grid-item">
+							<a href="#">
+								<img src="{{ URL::asset('images/customer/lionwing-logo.png') }}" alt=""/>
+							</a>
+						</div>
+						<div class="grid-item">
+							<a href="#">
+								<img src="{{ URL::asset('images/customer/kobe-logo.png') }}" alt=""/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Logo Section 1 End -->
 
 		<!-- Feature Section 3 -->
 		<div class="section-block feature-3 pb-0 bkg-white">

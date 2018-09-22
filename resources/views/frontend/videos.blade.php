@@ -5,7 +5,7 @@
         <div class="row flex">
             <div class="column width-9 offset-1 mb-mobile-40 v-align-middle">
                 <div>
-                    <h4>MODU Conveyor System in a Glance</h4>
+                    <h4>MODU Conveyor System</h4>
                     <div class="video-container">
                         <iframe width="500" height="281" src="https://www.youtube.com/embed/lA-p56PqwKA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
@@ -21,7 +21,7 @@
             </div>
             <div class="column width-6">
                 <div>
-                    <h4>MODU Continuous Elevator at Retail Outlet</h4>
+                    <h4>MODU Continuous Elevator</h4>
                     <div class="video-container">
                         <iframe width="500" height="281" src="https://www.youtube.com/embed/qPd7C53vE3s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
@@ -29,7 +29,7 @@
             </div>
             <div class="column width-6">
                 <div>
-                    <h4>MODU 360° Gripper Conveyor for PET Bottles</h4>
+                    <h4>MODU 360° Gripper Conveyor</h4>
                     <div class="video-container">
                         <iframe width="500" height="281" src="https://www.youtube.com/embed/4w3-pWnhgCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
@@ -37,7 +37,7 @@
             </div>
             <div class="column width-6">
                 <div>
-                    <h4>MODU Plastic Belt Conveyor for Candies Transfer</h4>
+                    <h4>MODU Plastic Belt Conveyor</h4>
                     <div class="video-container">
                         <iframe width="500" height="281" src="https://www.youtube.com/embed/IRuB92XqQe0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
@@ -53,7 +53,7 @@
             </div>
             <div class="column width-6">
                 <div>
-                    <h4>MODU Continuous Elevator / Lowerator for Carton Box Transfer</h4>
+                    <h4>MODU Continuous Elevator / Lowerator </h4>
                     <div class="video-container">
                         <iframe width="500" height="281" src="https://www.youtube.com/embed/wFCDBcb13gU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
@@ -61,7 +61,7 @@
             </div>
             <div class="column width-6">
                 <div>
-                    <h4>MODU Chain Conveyor for Puck Handling</h4>
+                    <h4>MODU Chain Conveyor</h4>
                     <div class="video-container">
                         <iframe width="500" height="281" src="https://www.youtube.com/embed/I9_ck5LGPP4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>

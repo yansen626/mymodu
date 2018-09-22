@@ -35,6 +35,8 @@ Route::get('/products/{product}', 'Frontend\HomeController@product')->name('prod
 
 
 // industrial solution menu
+Route::get('/industrial-solution', 'Frontend\HomeController@industrialSolution')->name('industrial-solution');
+
 Route::get('/industrial-food', 'Frontend\HomeController@industrialFood')->name('industrial-food');
 Route::get('/industrial-teabag', 'Frontend\HomeController@industrialTeaBag')->name('industrial-teabag');
 Route::get('/industrial-carton', 'Frontend\HomeController@industrialCarton')->name('industrial-carton');
@@ -48,6 +50,7 @@ Route::get('/industrial-puck', 'Frontend\HomeController@industrialPuck')->name('
 Route::get('/industrial-tobacco', 'Frontend\HomeController@industrialTobacco')->name('industrial-tobacco');
 
 // download pdf
+Route::get('/downloads', 'Frontend\HomeController@Downloads')->name('downloads');
 Route::get('/download/{filename}', 'Frontend\HomeController@DownloadFile')->name('download');
 
 //videos menu
@@ -55,6 +58,9 @@ Route::get('/videos', 'Frontend\HomeController@Video')->name('videos');
 
 //article
 Route::get('/article/{page}', 'Frontend\HomeController@Article')->name('article');
+
+//customer
+Route::get('/our-customers', 'Frontend\HomeController@ourCustomers')->name('our-customers');
 
 // End Frontend Routing
 Route::get('/home', 'HomeController@index')->name('home');

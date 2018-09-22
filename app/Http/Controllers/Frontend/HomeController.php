@@ -40,6 +40,10 @@ class HomeController extends Controller
         return View('frontend.contact-us');
     }
 
+    public function ourCustomers(){
+        return View('frontend.our-customers');
+    }
+
     public function submitContactUs(Request $request){
         $name = Input::get('name');
         $email = Input::get('email');
@@ -47,7 +51,7 @@ class HomeController extends Controller
 
         $data = new ContactUs($name, $email, $description);
 
-        Mail::to('ferdyantorand@gmail.com')->send($data);
+        Mail::to('msi@modu-system.co.id')->send($data);
 
         Session::flash('message', 'Terima Kasih. Kami akan segera menghubungi Anda!');
         return View('frontend.contact-us');
@@ -134,6 +138,10 @@ class HomeController extends Controller
         }
     }
 
+    public function industrialSolution(){
+        return View('frontend.industrial-solution');
+    }
+
     public function industrialFood(){
         return View('frontend.industrial-food');
     }
@@ -176,6 +184,10 @@ class HomeController extends Controller
 
     public function industrialTobacco(){
         return View('frontend.industrial-tobacco');
+    }
+
+    public function Downloads(){
+        return View('frontend.downloads');
     }
 
     public function DownloadFile($filename)

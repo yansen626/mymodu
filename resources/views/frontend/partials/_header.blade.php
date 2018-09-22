@@ -35,6 +35,9 @@
                                     <a href="{{ route('about-us-facts') }}">Facts</a>
                                 </li>
                                 <li>
+                                    <a href="{{ route('our-customers') }}">Our Customer</a>
+                                </li>
+                                <li>
                                     <a href="{{ route('about-us-location') }}">MODU in the world</a>
                                 </li>
                             </ul>
@@ -62,57 +65,62 @@
                                 </li>
                             </ul>
                         </li>
-
-                        <li class="contains-mega-sub-menu">
-                            <a href="#">Industrial Solutions</a>
-                            <ul class="mega-sub-menu">
-                                <li>
-                                    <ul>
-                                        <li>
-                                            <a href="{{ route('industrial-food') }}">Food & Packaging</a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ route('industrial-teabag') }}">Tea Bag Handling</a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ route('industrial-carton') }}">Carton Handling</a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ route('industrial-pharmacy') }}">Personal & Pharmaceutical</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul>
-                                        <li>
-                                            <a href="{{ route('industrial-paper') }}">Paper Converting</a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ route('industrial-electric') }}">Electronic & Electrical</a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ route('industrial-optical') }}">Optional Handling</a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ route('industrial-can') }}">Composite Can Manufacturing</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul>
-                                        <li>
-                                            <a href="{{ route('industrial-automotive') }}">Automotive & Machine Parts</a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ route('industrial-puck') }}">Puck Handling</a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ route('industrial-tobacco') }}">Tobacco Handling</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
+                        <li>
+                            <a href="{{ route('industrial-solution') }}">Industrial Solutions</a>
                         </li>
+                        <li>
+                            <a href="{{ route('downloads') }}">Downloads</a>
+                        </li>
+                        {{--<li class="contains-mega-sub-menu">--}}
+                            {{--<a href="#">Industrial Solutions</a>--}}
+                            {{--<ul class="mega-sub-menu">--}}
+                                {{--<li>--}}
+                                    {{--<ul>--}}
+                                        {{--<li>--}}
+                                            {{--<a href="{{ route('industrial-food') }}">Food & Packaging</a>--}}
+                                        {{--</li>--}}
+                                        {{--<li>--}}
+                                            {{--<a href="{{ route('industrial-teabag') }}">Tea Bag Handling</a>--}}
+                                        {{--</li>--}}
+                                        {{--<li>--}}
+                                            {{--<a href="{{ route('industrial-carton') }}">Carton Handling</a>--}}
+                                        {{--</li>--}}
+                                        {{--<li>--}}
+                                            {{--<a href="{{ route('industrial-pharmacy') }}">Personal & Pharmaceutical</a>--}}
+                                        {{--</li>--}}
+                                    {{--</ul>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<ul>--}}
+                                        {{--<li>--}}
+                                            {{--<a href="{{ route('industrial-paper') }}">Paper Converting</a>--}}
+                                        {{--</li>--}}
+                                        {{--<li>--}}
+                                            {{--<a href="{{ route('industrial-electric') }}">Electronic & Electrical</a>--}}
+                                        {{--</li>--}}
+                                        {{--<li>--}}
+                                            {{--<a href="{{ route('industrial-optical') }}">Optional Handling</a>--}}
+                                        {{--</li>--}}
+                                        {{--<li>--}}
+                                            {{--<a href="{{ route('industrial-can') }}">Composite Can Manufacturing</a>--}}
+                                        {{--</li>--}}
+                                    {{--</ul>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<ul>--}}
+                                        {{--<li>--}}
+                                            {{--<a href="{{ route('industrial-automotive') }}">Automotive & Machine Parts</a>--}}
+                                        {{--</li>--}}
+                                        {{--<li>--}}
+                                            {{--<a href="{{ route('industrial-puck') }}">Puck Handling</a>--}}
+                                        {{--</li>--}}
+                                        {{--<li>--}}
+                                            {{--<a href="{{ route('industrial-tobacco') }}">Tobacco Handling</a>--}}
+                                        {{--</li>--}}
+                                    {{--</ul>--}}
+                                {{--</li>--}}
+                            {{--</ul>--}}
+                        {{--</li>--}}
                         <li>
                             <a href="{{ route('contact-us') }}">Contact Us</a>
                         </li>
