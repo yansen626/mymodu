@@ -13,7 +13,7 @@
 					<div class="hero-content ">
 						<div class="left">
 							<p class="lead color-white" style="font-size: 2.995rem !important;">Started Industrial Conveyor & Automation </p>
-							<p class="color-grey-light">MODU System began its journey with its establishment in Singapore in 1995. Initially, the manufacturing set up of the company was established in Malaysia in 1999, which later expanded to China & Europe in 2007 and to United States in 2010.
+							<p class="color-grey-light">MODU System began its journey with its establishment in Singapore in 1995. Initially, the manufacturing set up of the company was established in Malaysia in 1999, which later expanded to China & Europe in 2007, to United States in 2010, and to Indonesia in 2011.
 							</p>
 							<p class="color-grey-light">Quality maintenance and excellence in design has been the hallmark of our policy which was duly recognized in 2003 when the company was awarded ISO 9001:2000 certification. In acknowledgment of our dedication and progress, MODU System was awarded the esteemed “Pioneer Status” by the Malaysia Industrial Development Authority (MIDA) in the same year. Continuous excellence in quality earned MODU System ISO 9001:2008 QMS certification in 2010.
 							</p>
