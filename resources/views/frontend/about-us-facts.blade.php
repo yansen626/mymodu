@@ -69,7 +69,8 @@
 								</div>
 								<div class="timeline-description column width-8">
 									<div class="horizon" data-animate-in="preset:slideInRightShort;duration:1000ms;delay:400ms;">
-										<p class="mb-10 color-theme">Moduveyor renamed & established as MODU System - Launched MODU MS 63mm model.</p>
+										<p class="mb-10 color-theme">- Moduveyor renamed & established as MODU System <br>
+                                            - Launched MODU MS 63mm model.</p>
 									</div>
 								</div>
 							</div>
@@ -83,7 +84,8 @@
 								</div>
 								<div class="timeline-description column width-8">
 									<div class="horizon" data-animate-in="preset:slideInRightShort;duration:1000ms;delay:400ms;">
-										<p class="mb-10">Launched MODU MM2 83mm & MX 305mm. - Launched MODU ML 140mm.</p>
+										<p class="mb-10">- Launched MODU MM2 83mm & MX 305mm. <br>
+                                            - Launched MODU ML 140mm.</p>
 									</div>
 								</div>
 							</div>
@@ -111,7 +113,8 @@
 								</div>
 								<div class="timeline-description column width-8">
 									<div class="horizon" data-animate-in="preset:slideInRightShort;duration:1000ms;delay:400ms;">
-										<p class="mb-10">Awarded ISO 9001: 2000 Certificate from UKAS. - Awarded Pioneer Status by MIDA Malaysia.</p>
+										<p class="mb-10">- Awarded ISO 9001: 2000 Certificate from UKAS. <br>
+                                            - Awarded Pioneer Status by MIDA Malaysia.</p>
 									</div>
 								</div>
 							</div>
@@ -167,7 +170,8 @@
 								</div>
 								<div class="timeline-description column width-8">
 									<div class="horizon" data-animate-in="preset:slideInRightShort;duration:1000ms;delay:400ms;">
-										<p class="mb-10">Established MODU System China in Dongguan. - Established MODU System Europe in Surrey, United Kingdom.</p>
+										<p class="mb-10">- Established MODU System China in Dongguan. <br>
+                                            - Established MODU System Europe in Surrey, United Kingdom.</p>
 									</div>
 								</div>
 							</div>
@@ -181,7 +185,7 @@
 								</div>
 								<div class="timeline-description column width-8">
 									<div class="horizon color-theme" data-animate-in="preset:slideInRightShort;duration:1000ms;delay:400ms;">
-										<p class="mb-10">Launched MODU SM Crescent chain for Sushi Bar Restaurant. - Launched MODU ML2 140mm. - Launched MODU D Series (Stainless Steel Conveyor.</p>
+										<p class="mb-10">- Launched MODU SM Crescent chain for Sushi Bar Restaurant. <br>- Launched MODU ML2 140mm. <br>- Launched MODU D Series (Stainless Steel Conveyor.</p>
 
 									</div>
 								</div>
@@ -210,7 +214,11 @@
 								</div>
 								<div class="timeline-description column width-8">
 									<div class="horizon color-theme" data-animate-in="preset:slideInRightShort;duration:1000ms;delay:400ms;">
-										<p class="mb-10">Awarded ISO 9001: 2008 Certificate from UKAS. - Launched MODU MX2 220mm. - Launched MODU Continuous Elevator.</p>
+										<p class="mb-10">- Awarded ISO 9001: 2008 Certificate from UKAS. <br>
+											- Established MODU Indonesia in Jakarta, Indonesia. <br>
+											- Launched MODU MX2 220mm. <br>
+											- Launched MODU Continuous Elevator. <br>
+										</p>
 									</div>
 								</div>
 							</div>

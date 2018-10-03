@@ -50,7 +50,7 @@
 					<div class="row grid content-grid-3">
 						<div class="grid-item design identity">
 							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
-								<a class="overlay-link" href="#">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/customer/indofood-logo.png') }}" alt=""/>
 									<span class="overlay-info v-align-bottom left color-white">
 										<span>
@@ -65,7 +65,7 @@
 						</div>
 						<div class="grid-item design identity">
 							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
-								<a class="overlay-link" href="#">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/customer/mayora-logo.png') }}" alt=""/>
 									<span class="overlay-info v-align-bottom left color-white">
 										<span>
@@ -80,7 +80,7 @@
 						</div>
 						<div class="grid-item design identity">
 							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
-								<a class="overlay-link" href="#">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/customer/sinarmas-logo.png') }}" alt=""/>
 									<span class="overlay-info v-align-bottom left color-white">
 										<span>
@@ -95,7 +95,7 @@
 						</div>
 						<div class="grid-item design identity">
 							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
-								<a class="overlay-link" href="#">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/customer/unilever-logo.png') }}" alt=""/>
 									<span class="overlay-info v-align-bottom left color-white">
 												<span>
@@ -110,7 +110,7 @@
 						</div>
 						<div class="grid-item design identity">
 							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="50%" data-hover-bkg-opacity="0.6">
-								<a class="overlay-link" href="#">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/customer/nestle-logo.png') }}" alt=""/>
 									<span class="overlay-info v-align-bottom left color-white">
 												<span>
@@ -125,7 +125,7 @@
 						</div>
 						<div class="grid-item design identity">
 							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
-								<a class="overlay-link" href="#">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/customer/yasulor-logo.png') }}" alt=""/>
 									<span class="overlay-info v-align-bottom left color-white">
 												<span>
@@ -140,7 +140,7 @@
 						</div>
 						<div class="grid-item design identity">
 							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
-								<a class="overlay-link" href="#">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/customer/torabika-logo.png') }}" alt=""/>
 									<span class="overlay-info v-align-bottom left color-white">
 												<span>
@@ -155,7 +155,7 @@
 						</div>
 						<div class="grid-item design identity">
 							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
-								<a class="overlay-link" href="#">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/customer/arnotts-logo.png') }}" alt=""/>
 									<span class="overlay-info v-align-bottom left color-white">
 												<span>
@@ -170,7 +170,7 @@
 						</div>
 						<div class="grid-item design identity">
 							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
-								<a class="overlay-link" href="#">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/customer/indolakto-logo.png') }}" alt=""/>
 									<span class="overlay-info v-align-bottom left color-white">
 												<span>
@@ -185,7 +185,7 @@
 						</div>
 						<div class="grid-item design identity">
 							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
-								<a class="overlay-link" href="#">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/customer/otsuka-logo.png') }}" alt=""/>
 									<span class="overlay-info v-align-bottom left color-white">
 												<span>
@@ -200,22 +200,22 @@
 						</div>
 						<div class="grid-item design identity">
 							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
-								<a class="overlay-link" href="#">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/customer/PTKao-logo.png') }}" alt=""/>
 									<span class="overlay-info v-align-bottom left color-white">
-												<span>
-													<span>
-														<span class="project-title">PT Kao</span>
-														{{--<span class="project-description">Wearable tech</span>--}}
-													</span>
-												</span>
+										<span>
+											<span>
+												<span class="project-title">PT Kao</span>
+												{{--<span class="project-description">Wearable tech</span>--}}
 											</span>
+										</span>
+									</span>
 								</a>
 							</div>
 						</div>
 						<div class="grid-item design identity">
 							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
-								<a class="overlay-link" href="#">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/customer/wilmar-logo.png') }}" alt=""/>
 									<span class="overlay-info v-align-bottom left color-white">
 												<span>
@@ -230,7 +230,7 @@
 						</div>
 						<div class="grid-item design identity">
 							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
-								<a class="overlay-link" href="#">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/customer/lionwing-logo.png') }}" alt=""/>
 									<span class="overlay-info v-align-bottom left color-white">
 												<span>
@@ -245,12 +245,87 @@
 						</div>
 						<div class="grid-item design identity">
 							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
-								<a class="overlay-link" href="#">
+								<a class="overlay-link">
 									<img src="{{ URL::asset('images/customer/kobe-logo.png') }}" alt=""/>
 									<span class="overlay-info v-align-bottom left color-white">
 												<span>
 													<span>
 														<span class="project-title">Kobe</span>
+														{{--<span class="project-description">Wearable tech</span>--}}
+													</span>
+												</span>
+											</span>
+								</a>
+							</div>
+						</div>
+						<div class="grid-item design identity">
+							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
+								<a class="overlay-link">
+									<img src="{{ URL::asset('images/customer/icipaint-logo.png') }}" alt=""/>
+									<span class="overlay-info v-align-bottom left color-white">
+												<span>
+													<span>
+														<span class="project-title">ICI Paint</span>
+														{{--<span class="project-description">Wearable tech</span>--}}
+													</span>
+												</span>
+											</span>
+								</a>
+							</div>
+						</div>
+						<div class="grid-item design identity">
+							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
+								<a class="overlay-link">
+									<img src="{{ URL::asset('images/customer/mikatasa-logo.png') }}" alt=""/>
+									<span class="overlay-info v-align-bottom left color-white">
+												<span>
+													<span>
+														<span class="project-title">Mikatasa</span>
+														{{--<span class="project-description">Wearable tech</span>--}}
+													</span>
+												</span>
+											</span>
+								</a>
+							</div>
+						</div>
+						<div class="grid-item design identity">
+							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
+								<a class="overlay-link">
+									<img src="{{ URL::asset('images/customer/ceres-logo.png') }}" alt=""/>
+									<span class="overlay-info v-align-bottom left color-white">
+												<span>
+													<span>
+														<span class="project-title">Ceres</span>
+														{{--<span class="project-description">Wearable tech</span>--}}
+													</span>
+												</span>
+											</span>
+								</a>
+							</div>
+						</div>
+						<div class="grid-item design identity">
+							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
+								<a class="overlay-link">
+									<img src="{{ URL::asset('images/customer/nutrifood-logo.png') }}" alt=""/>
+									<span class="overlay-info v-align-bottom left color-white">
+												<span>
+													<span>
+														<span class="project-title">Nutrifood</span>
+														{{--<span class="project-description">Wearable tech</span>--}}
+													</span>
+												</span>
+											</span>
+								</a>
+							</div>
+						</div>
+						<div class="grid-item design identity">
+							<div class="thumbnail rounded overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-gradient data-gradient-spread="70%" data-hover-bkg-opacity="0.6">
+								<a class="overlay-link">
+									<img src="{{ URL::asset('images/customer/urc-logo.png') }}" alt=""/>
+									<span class="overlay-info v-align-bottom left color-white">
+												<span>
+													<span>
+														<span class="project-title">URC</span>
 														{{--<span class="project-description">Wearable tech</span>--}}
 													</span>
 												</span>

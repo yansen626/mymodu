@@ -80,76 +80,102 @@
 					<h4 class="mb-50">Full integration with popular company such as:</h4>
 					<div class="row content-grid-5">
 						<div class="grid-item">
-							<a href="#">
+							<a>
 								<img src="{{ URL::asset('images/customer/indofood-logo.png') }}" alt=""/>
 							</a>
 						</div>
 						<div class="grid-item">
-							<a href="#">
+							<a>
 								<img src="{{ URL::asset('images/customer/mayora-logo.png') }}" alt=""/>
 							</a>
 						</div>
 						<div class="grid-item">
-							<a href="#">
+							<a>
 								<img src="{{ URL::asset('images/customer/sinarmas-logo.png') }}" alt=""/>
 							</a>
 						</div>
 						<div class="grid-item">
-							<a href="#">
+							<a>
 								<img src="{{ URL::asset('images/customer/unilever-logo.png') }}" alt=""/>
 							</a>
 						</div>
 						<div class="grid-item">
-							<a href="#">
+							<a>
 								<img src="{{ URL::asset('images/customer/nestle-logo.png') }}" alt=""/>
 							</a>
 						</div>
 					</div>
 					<div class="row content-grid-5">
 						<div class="grid-item">
-							<a href="#">
+							<a>
 								<img src="{{ URL::asset('images/customer/yasulor-logo.png') }}" alt=""/>
 							</a>
 						</div>
 						<div class="grid-item">
-							<a href="#">
+							<a>
 								<img src="{{ URL::asset('images/customer/torabika-logo.png') }}" alt=""/>
 							</a>
 						</div>
 						<div class="grid-item">
-							<a href="#">
+							<a>
 								<img src="{{ URL::asset('images/customer/arnotts-logo.png') }}" alt=""/>
 							</a>
 						</div>
 						<div class="grid-item">
-							<a href="#">
+							<a>
 								<img src="{{ URL::asset('images/customer/indolakto-logo.png') }}" alt=""/>
 							</a>
 						</div>
 						<div class="grid-item">
-							<a href="#">
+							<a>
 								<img src="{{ URL::asset('images/customer/otsuka-logo.png') }}" alt=""/>
+							</a>
+						</div>
+					</div>	<div class="row content-grid-5">
+						<div class="grid-item">
+							<a>
+								<img src="{{ URL::asset('images/customer/mikatasa-logo.png') }}" alt=""/>
+							</a>
+						</div>
+						<div class="grid-item">
+							<a>
+								<img src="{{ URL::asset('images/customer/ceres-logo.png') }}" alt=""/>
+							</a>
+						</div>
+						<div class="grid-item">
+							<a>
+								<img src="{{ URL::asset('images/customer/nutrifood-logo.png') }}" alt=""/>
+							</a>
+						</div>
+						<div class="grid-item">
+							<a>
+								<img src="{{ URL::asset('images/customer/urc-logo.png') }}" alt=""/>
+							</a>
+						</div>
+						<div class="grid-item">
+							<a>
+								<img src="{{ URL::asset('images/customer/icipaint-logo.png') }}" alt=""/>
 							</a>
 						</div>
 					</div>
 					<div class="row content-grid-5">
 						<div class="grid-item">
-							<a href="#">
+							<a>
 								<img src="{{ URL::asset('images/customer/PTKao-logo.png') }}" alt=""/>
 							</a>
 						</div>
 						<div class="grid-item">
-							<a href="#">
+							<a>
 								<img src="{{ URL::asset('images/customer/wilmar-logo.png') }}" alt=""/>
 							</a>
 						</div>
 						<div class="grid-item">
-							<a href="#">
+							<a>
 								<img src="{{ URL::asset('images/customer/lionwing-logo.png') }}" alt=""/>
 							</a>
 						</div>
 						<div class="grid-item">
-							<a href="#">
+							<a>
 								<img src="{{ URL::asset('images/customer/kobe-logo.png') }}" alt=""/>
 							</a>
 						</div>
