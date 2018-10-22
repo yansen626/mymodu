@@ -136,6 +136,10 @@ class HomeController extends Controller
         {
             return View('frontend.product-accumulation');
         }
+        else if($product == 'sushi')
+        {
+            return View('frontend.product-sushi');
+        }
     }
 
     public function industrialSolution(){

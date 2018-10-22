@@ -51,8 +51,11 @@
                                 <a href="{{route ('products', ['products'=>'accumulation'])}}">Accumulation Conveyor</a>
                             </li>
                             <li>
-                                <a href="http://mymodu.com/2017/" target="_blank">Kaiten/Sushi Conveyor</a>
+                                <a href="{{route ('products', ['products'=>'sushi'])}}">Kaiten/Sushi Conveyor</a>
                             </li>
+                            {{--<li>--}}
+                                {{--<a href="http://mymodu.com/2017/" target="_blank">Kaiten/Sushi Conveyor</a>--}}
+                            {{--</li>--}}
                         </ul>
                     </li>
                     <li>
